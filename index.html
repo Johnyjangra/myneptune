@@ -1,0 +1,1091 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEPTUNE</title>
+  <link rel="stylesheet" href="./assets/css/index.css" />
+  <link rel="shortcut icon" href="./assets/img/png/favicon.svg" type="image/x-icon" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- slick theam min css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- slick theam min css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="overflow-hidden">
+
+  <div  class="">
+    <div id="back-to-top-button" 
+      class="bg-white backttop_sixe cursor_pointr ">
+      <p class="mb-0"><span class="text_black op_07 fs_md top_btnset">&#8593;</span></p>
+    </div>
+  </div>
+
+  <!-- PREOADER -->
+  <section
+      id="preloader"
+      class="min-vh-100 bg_cream d-flex justify-content-center align-items-center position-fixed top-0 w-100 z_1000 "
+    >
+      <div class="d-flex justify-content-center align-items-center">
+       <div class="w_180"><img class="animintion_preloader w-100"  src="./assets/img/webp/Logo.webp" alt="logo" />  </div>
+
+       </div>
+    </section>
+  <!-- HERO -->
+  <section class="linear_bg_hero overflow-hidden">
+    <div class="blur_bg py-2 position-relative z-2">
+      <div class="c_container container">
+        <div class="d-flex justify-content-between py-1 align-items-center">
+          <div class="w_169">
+            <a href="#">
+              <img class="w-100" src="./assets/img/webp/Logo.webp" alt="logo" /></a>
+          </div>
+          <ul id="show"
+            class="d-flex align-items-center ps-0 mb-0 flex-lg-row flex-column mobile_ul justify-content-lg-start justify-content-center">
+            <li>
+              <a onclick="shownav()"  class="ff_mont fs_xsm fw-normal text_black op_07 strok_hover" href="#">Home</a>
+            </li>
+            <li class="ps-lg-4 pt-lg-0 pt-3">
+              <a onclick="shownav()" class="ff_mont fs_xsm fw-normal text_black op_07 strok_hover ms-lg-2" href="#">About us</a>
+            </li>
+            <li class="px-lg-4 pt-lg-0 pt-3">
+              <a onclick="shownav()" class="ff_mont fs_xsm fw-normal text_black op_07 strok_hover ms-lg-2" href="#">Product</a>
+            </li>
+            <button onclick="shownav()"
+              class="ff_mont fs_xsm fw-semibold mt-lg-0 mt-3 text-white p_10_24  green_btn ms-lg-2 btn_hover">
+              Apply now
+            </button>
+            <span onclick="shownav()"
+              class="text_black fs_lg position-absolute cross_set d-lg-none d-block">&#10005;</span>
+          </ul>
+          <div class="d-lg-none d-block" onclick="shownav()">
+            <div>
+              <img class="w-100" src="./assets/img/svg/naviconimg.svg" alt="">
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HERO -->
+    <div class="position-relative py-lg-5 ">
+      <div class="c_container container py-lg-5 py-lg-4 pb-4">
+        <div class="row align-items-center pt-5 flex-lg-row flex-column">
+          <div class="col-lg-6 py-lg-4">
+            <div data-aos="fade-right" data-aos-duration="1600" class="position-relative z-1">
+              <p class="para_border d-inline-block p_7_23 lh_normal ff_mont fs_xsm fw-normal text_black">
+                We are a global online school
+              </p>
+              <h1 class="ff_mont fs_xl fw-bold mb-3 text_black">
+                Where 8-12 year children build confidence.
+              </h1>
+              <p class="ff_mont fs_xsm fw-normal lh_150 text_black op_07 mb-0">
+                We are global online school where students aged 8-12 grow
+                their confidence by playing games with other. Our weekly
+                classes challenge your child, help them make new friends, and
+                build their confidence.
+              </p>
+              <button
+                class="ff_mont fs_xsm fw-semibold text-white p_10_24  green_btn position-relative z-5 btn_hover mt-4 mb-lg-5">
+                Apply now
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 position_lg_absolute fort_set mt_m_38">
+            <div class="small_heroimg">
+              <img data-aos="fade-left" data-aos-duration="1600" class="w_lg_117 w_100 w_xl_127 w_md_87 w_lg_131"
+                src="./assets/img/webp/fort.webp" alt="fort" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="position-absolute z-1 bottom-0 h_lg_150">
+        <img class="w-100" src="./assets/img/webp/downshadowimg.webp" alt="" />
+      </div>
+    </div>
+  </section>
+  <!-- TEAM US -->
+  <div class="overflow-hidden py-3 bg_cream">
+    <section class="bg_green">
+      <div class="scal">
+        <div class="bg_orange py-sm-5 py-4">
+          <div class="container c_container">
+            <div class="row align-items-center rotate_0 flex-lg-row">
+              <div class="col-lg-5">
+                <h2 data-aos="fade-up" data-aos-duration="1600"
+                  class="ff_mont fs_md text-white fw-bold text-lg-start text-center mb-0">
+                  We Built teams at:
+                </h2>
+              </div>
+              <div class="col-lg-7 pt-lg-0 pt-4">
+                <div data-aos="zoom-in" data-aos-duration="1600"
+                  class="d-flex justify-content-between align-items-center">
+                  <div class="mx_223 mx_180 mx_112">
+                    <img class="w-100" src="./assets/img/webp/classimg.webp" alt="" />
+                  </div>
+                  <div class="mx_150 mx_120 mx_sm_90">
+                    <img class="w-100" src="./assets/img/webp/google.webp" alt="" />
+                  </div>
+                  <div class="mx_153 mx_120 mx_sm_90">
+                    <img class="w-100" src="./assets/img/webp/mc.webp" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- NAPTUNE -->
+  <section class="bg_cream">
+    <div class="neptun_bg py-5">
+      <div class="container c_container py-5">
+        <div class="mx_811 mx-auto mb-lg-4 mt-lg-4" data-aos="zoom-in" data-aos-duration="1600">
+          <div
+            class="bg-white cursor_pointr overflow-hidden hovr_bg_boy pt-lg-5 pt-4 pb_60 ps_33 ps_md_20 ps_sm_16 green_top_bodr pe-md-5 pe-3 position-relative">
+            <div class="position-relative z-1 py-2">
+              <h2 class="ff_mont fs_lg fw-bold text_black mb-0">
+                Why we created <span class="clr_green">Neptune</span>
+              </h2>
+              <div class="d-flex align-items-center pt-3">
+                <div class="dot"></div>
+                <p class="mb-0 ps-2 ff_mont fs_xsm fw-normal lh_150 text_black op_08">
+                  A smart 10 year old can ace their school work.
+                </p>
+              </div>
+              <div class="d-flex align-items-start pt_10">
+                <div>
+                  <div class="dot mt-2"></div>
+                </div>
+
+                <p class="mb-0 ps-2 ff_mont fs_xsm fw-normal lh_150 text_black op_08 mx_580">
+                  Yet this same child can struggle on a team. Social anxiety
+                  may overwhelm them, or they may be unable to stop talking to
+                  make space for others. Rarely can they rally a group of
+                  peers forward.
+                </p>
+              </div>
+              <div class="d-flex align-items-start pt_10">
+                <div>
+                  <div class="dot mt-2"></div>
+                </div>
+                <p class="mb-0 ps-2 ff_mont fs_xsm fw-normal lh_150 text_black op_08 mx_580">
+                  <span class="op_1 fw-semibold">Consequential decisions are made by teams:</span>
+                  Performing surgery, negotiating contracts, repairing a
+                  satellite.
+                </p>
+              </div>
+              <div class="d-flex align-items-center pt_10">
+                <div>
+                  <div class="dot"></div>
+                </div>
+                <p class="mb-0 ps-2 ff_mont pe-5 fs_xsm fw-normal lh_150 text_black op_08 mx_580">
+                  We created Neptune to challenge children to succeed in high
+                  performing teams.
+                </p>
+              </div>
+              <div class="pt_10 d-flex align-items-center">
+                <div>
+                  <div class="dot"></div>
+                </div>
+                <p class="mb-0 ps-2 pe-5 me-5 ff_mont fs_xsm fw-normal lh_150 text_black op_08">
+                  Where the consequences are limited to a video game.
+                </p>
+              </div>
+            </div>
+            <div class="mx_270 position-absolute flowe_set d-md-block d-none">
+              <img class="w-100" src="./assets/img/webp/flower.webp" alt="flower" />
+            </div>
+            <div class="mx_270 position-absolute flowe_small d-md-none d-block">
+              <img class="w-100" src="./assets/img/svg/flower2.svg" alt="flower" />
+            </div>
+            <div class="mx_170 mx_md_140 mx_sm_120 position-absolute boy_set z-2">
+              <img class="w-100 boy_scal" src="./assets/img/webp/boy.webp" alt="flower" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- STUDENT -->
+  <section class="bg_cream py-lg-5 overflow-hidden">
+    <div class="container c_container py-lg-5 py-4" data-aos="zoom-in" data-aos-duration="1600">
+      <h3 class="ff_mont fs_lg fw-bold text_black text-center mb-0 lh_150 m">
+        Student <span class="clr_green">Outcomes</span>
+      </h3>
+      <div class="mx_844 mx-auto text-center pt-3">
+        <p class="ff_mont fs_xsm fw-normal text_black op_08 mb-0">
+          Our experience across top tier firms, including McKinsey & Company
+          and Google, and our experience building ClassDojo, enables us to
+          teach your child from a perspective no one else can: We bring battle
+          tested industry techniques from the best problem solvers in the
+          world.
+        </p>
+        <p class="ff_mont fs_xsm fw-bold text_black mb-0 pt-2 pb-lg-0 pb-5">
+          Your child will learn to:
+        </p>
+      </div>
+    </div>
+    <div class="position-relative">
+      <div class="row flex-lg-row flex-column w-100 py-lg-5 pt-5 mt-4 mb-lg-5 px-5 position-relative z-2 all_svg">
+        <div class="col-lg-2 cursor_pointr" data-aos="zoom-in" data-aos-duration="1600">
+          <div class="position-relative hexa1_set hexa_hvr small_hex a1_set">
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="197" height="220" viewBox="0 0 197 220" fill="none">
+              <g filter="url(#filter0_d_219_8807)">
+                <path
+                  d="M92.4206 19.5722C96.1736 17.367 100.826 17.367 104.579 19.5722L165.758 55.521C169.427 57.6764 171.679 61.6127 171.679 65.8671V138.133C171.679 142.387 169.427 146.324 165.758 148.479L104.579 184.428C100.826 186.633 96.1736 186.633 92.4206 184.428L31.2415 148.479C27.5735 146.324 25.3209 142.387 25.3209 138.133V65.8671C25.3209 61.6127 27.5735 57.6764 31.2415 55.521L92.4206 19.5722Z"
+                  fill="white" />
+                <path
+                  d="M92.9273 20.4344C96.3674 18.4129 100.633 18.4129 104.073 20.4344L165.252 56.3832C168.614 58.3589 170.679 61.9673 170.679 65.8671V138.133C170.679 142.033 168.614 145.641 165.252 147.617L104.073 183.566C100.633 185.587 96.3674 185.587 92.9273 183.566L31.7481 147.617C28.3858 145.641 26.3209 142.033 26.3209 138.133V65.8671C26.3209 61.9673 28.3858 58.3589 31.7481 56.3832L92.9273 20.4344Z"
+                  stroke="#FD9E78" stroke-opacity="0.2" stroke-width="2" />
+              </g>
+              <defs>
+                <filter id="filter0_d_219_8807" x="0.320801" y="0.918213" width="196.358" height="218.164"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="8" />
+                  <feGaussianBlur stdDeviation="12.5" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.988235 0 0 0 0 0.611765 0 0 0 0 0.45098 0 0 0 0.12 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_219_8807" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_219_8807" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+
+            <div class="position-absolute small1_text_set text_set text-center div_wid hvr_d_no">
+              <img src="./assets/img/svg/hexa1img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text_black">
+                Build confidence
+              </p>
+            </div>
+            <div class="position-absolute w- 100 text2_set text-center d-none hvr_d_bl">
+              <img src="./assets/img/svg/hexa1img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text_black pt-1">
+                Build confidence
+              </p>
+              <p class="ff_mont fs_14 fw-normal text-white op_08 mx_177 para_ show">
+                Practice making decisions in uncertain environments with no
+                clear direction.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2" data-aos="zoom-in" data-aos-duration="1600">
+          <div class="position-relative hexa2_img hexa_hvr">
+            <svg xmlns="http://www.w3.org/2000/svg" width="197" height="220" viewBox="0 0 197 220" fill="none">
+              <g filter="url(#filter0_d_219_8807)">
+                <path
+                  d="M92.4206 19.5722C96.1736 17.367 100.826 17.367 104.579 19.5722L165.758 55.521C169.427 57.6764 171.679 61.6127 171.679 65.8671V138.133C171.679 142.387 169.427 146.324 165.758 148.479L104.579 184.428C100.826 186.633 96.1736 186.633 92.4206 184.428L31.2415 148.479C27.5735 146.324 25.3209 142.387 25.3209 138.133V65.8671C25.3209 61.6127 27.5735 57.6764 31.2415 55.521L92.4206 19.5722Z"
+                  fill="white" />
+                <path
+                  d="M92.9273 20.4344C96.3674 18.4129 100.633 18.4129 104.073 20.4344L165.252 56.3832C168.614 58.3589 170.679 61.9673 170.679 65.8671V138.133C170.679 142.033 168.614 145.641 165.252 147.617L104.073 183.566C100.633 185.587 96.3674 185.587 92.9273 183.566L31.7481 147.617C28.3858 145.641 26.3209 142.033 26.3209 138.133V65.8671C26.3209 61.9673 28.3858 58.3589 31.7481 56.3832L92.9273 20.4344Z"
+                  stroke="#FD9E78" stroke-opacity="0.2" stroke-width="2" />
+              </g>
+              <defs>
+                <filter id="filter0_d_219_8807" x="0.320801" y="0.918213" width="196.358" height="218.164"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="8" />
+                  <feGaussianBlur stdDeviation="12.5" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.988235 0 0 0 0 0.611765 0 0 0 0 0.45098 0 0 0 0.12 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_219_8807" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_219_8807" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <div class="position-absolute small1_text_set text_set text-center div_wid hvr_d_no">
+              <img src="./assets/img/svg/hexa2img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text_black">
+                Regulate their voice
+              </p>
+            </div>
+            <div class="position-absolute w- 100 text2_set text-center d-none hvr_d_bl">
+              <img src="./assets/img/svg/hexa1img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text_black pt-1">
+                Regulate their voice
+              </p>
+              <p class="ff_mont fs_14 fw-normal text-white op_08 mx_177 para_ show">
+                Practice making decisions in uncertain environments with no
+                clear direction.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2" data-aos="zoom-in" data-aos-duration="1600">
+          <div class="position-relative hexa3_set hexa_hvr">
+            <svg xmlns="http://www.w3.org/2000/svg" width="197" height="220" viewBox="0 0 197 220" fill="none">
+              <g filter="url(#filter0_d_219_8807)">
+                <path
+                  d="M92.4206 19.5722C96.1736 17.367 100.826 17.367 104.579 19.5722L165.758 55.521C169.427 57.6764 171.679 61.6127 171.679 65.8671V138.133C171.679 142.387 169.427 146.324 165.758 148.479L104.579 184.428C100.826 186.633 96.1736 186.633 92.4206 184.428L31.2415 148.479C27.5735 146.324 25.3209 142.387 25.3209 138.133V65.8671C25.3209 61.6127 27.5735 57.6764 31.2415 55.521L92.4206 19.5722Z"
+                  fill="white" />
+                <path
+                  d="M92.9273 20.4344C96.3674 18.4129 100.633 18.4129 104.073 20.4344L165.252 56.3832C168.614 58.3589 170.679 61.9673 170.679 65.8671V138.133C170.679 142.033 168.614 145.641 165.252 147.617L104.073 183.566C100.633 185.587 96.3674 185.587 92.9273 183.566L31.7481 147.617C28.3858 145.641 26.3209 142.033 26.3209 138.133V65.8671C26.3209 61.9673 28.3858 58.3589 31.7481 56.3832L92.9273 20.4344Z"
+                  stroke="#FD9E78" stroke-opacity="0.2" stroke-width="2" />
+              </g>
+              <defs>
+                <filter id="filter0_d_219_8807" x="0.320801" y="0.918213" width="196.358" height="218.164"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="8" />
+                  <feGaussianBlur stdDeviation="12.5" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.988235 0 0 0 0 0.611765 0 0 0 0 0.45098 0 0 0 0.12 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_219_8807" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_219_8807" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <div class="position-absolute text_set small1_text_set text-center div_wid hvr_d_no">
+              <img src="./assets/img/svg/hexa3img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text_black">
+                Navigate ambiguity
+              </p>
+            </div>
+            <div class="position-absolute w- 100 text2_set text-center d-none hvr_d_bl">
+              <img src="./assets/img/svg/hexa1img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text_black pt-1">
+                Navigate ambiguity
+              </p>
+              <p class="ff_mont fs_14 fw-normal text-white op_08 mx_177 para_ show">
+                Practice making decisions in uncertain environments with no
+                clear direction.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2" data-aos="zoom-in" data-aos-duration="1600">
+          <div class="position-relative hexa4_set hexa_hvr">
+            <svg xmlns="http://www.w3.org/2000/svg" width="197" height="220" viewBox="0 0 197 220" fill="none">
+              <g filter="url(#filter0_d_219_8807)">
+                <path
+                  d="M92.4206 19.5722C96.1736 17.367 100.826 17.367 104.579 19.5722L165.758 55.521C169.427 57.6764 171.679 61.6127 171.679 65.8671V138.133C171.679 142.387 169.427 146.324 165.758 148.479L104.579 184.428C100.826 186.633 96.1736 186.633 92.4206 184.428L31.2415 148.479C27.5735 146.324 25.3209 142.387 25.3209 138.133V65.8671C25.3209 61.6127 27.5735 57.6764 31.2415 55.521L92.4206 19.5722Z"
+                  fill="white" />
+                <path
+                  d="M92.9273 20.4344C96.3674 18.4129 100.633 18.4129 104.073 20.4344L165.252 56.3832C168.614 58.3589 170.679 61.9673 170.679 65.8671V138.133C170.679 142.033 168.614 145.641 165.252 147.617L104.073 183.566C100.633 185.587 96.3674 185.587 92.9273 183.566L31.7481 147.617C28.3858 145.641 26.3209 142.033 26.3209 138.133V65.8671C26.3209 61.9673 28.3858 58.3589 31.7481 56.3832L92.9273 20.4344Z"
+                  stroke="#FD9E78" stroke-opacity="0.2" stroke-width="2" />
+              </g>
+              <defs>
+                <filter id="filter0_d_219_8807" x="0.320801" y="0.918213" width="196.358" height="218.164"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="8" />
+                  <feGaussianBlur stdDeviation="12.5" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.988235 0 0 0 0 0.611765 0 0 0 0 0.45098 0 0 0 0.12 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_219_8807" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_219_8807" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <div class="position-absolute text_set small1_text_set text-center div_wid hvr_d_no">
+              <img src="./assets/img/svg/hexa4img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text_black">
+                Navigate conflict
+              </p>
+            </div>
+            <div class="position-absolute w- 100 text2_set text-center d-none hvr_d_bl">
+              <img src="./assets/img/svg/hexa1img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text_black pt-1">
+                Navigate ambiguity
+              </p>
+              <p class="ff_mont fs_14 fw-normal text-white op_08 mx_177 para_ show">
+                Practice making decisions in uncertain environments with no
+                clear direction.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2" data-aos="zoom-in" data-aos-duration="1600">
+          <div class="position-relative hexa5_set hexa_hvr">
+            <svg xmlns="http://www.w3.org/2000/svg" width="197" height="220" viewBox="0 0 197 220" fill="none">
+              <g filter="url(#filter0_d_219_8807)">
+                <path
+                  d="M92.4206 19.5722C96.1736 17.367 100.826 17.367 104.579 19.5722L165.758 55.521C169.427 57.6764 171.679 61.6127 171.679 65.8671V138.133C171.679 142.387 169.427 146.324 165.758 148.479L104.579 184.428C100.826 186.633 96.1736 186.633 92.4206 184.428L31.2415 148.479C27.5735 146.324 25.3209 142.387 25.3209 138.133V65.8671C25.3209 61.6127 27.5735 57.6764 31.2415 55.521L92.4206 19.5722Z"
+                  fill="white" />
+                <path
+                  d="M92.9273 20.4344C96.3674 18.4129 100.633 18.4129 104.073 20.4344L165.252 56.3832C168.614 58.3589 170.679 61.9673 170.679 65.8671V138.133C170.679 142.033 168.614 145.641 165.252 147.617L104.073 183.566C100.633 185.587 96.3674 185.587 92.9273 183.566L31.7481 147.617C28.3858 145.641 26.3209 142.033 26.3209 138.133V65.8671C26.3209 61.9673 28.3858 58.3589 31.7481 56.3832L92.9273 20.4344Z"
+                  stroke="#FD9E78" stroke-opacity="0.2" stroke-width="2" />
+              </g>
+              <defs>
+                <filter id="filter0_d_219_8807" x="0.320801" y="0.918213" width="196.358" height="218.164"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="8" />
+                  <feGaussianBlur stdDeviation="12.5" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.988235 0 0 0 0 0.611765 0 0 0 0 0.45098 0 0 0 0.12 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_219_8807" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_219_8807" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <div class="position-absolute text_set small1_text_set text-center div_wid hvr_d_no">
+              <img src="./assets/img/svg/hexa5img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text-black">Reflect</p>
+            </div>
+            <div class="position-absolute w- 100 text2_set text-center d-none hvr_d_bl">
+              <img src="./assets/img/svg/hexa1img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text-black pt-1">
+                Reflect
+              </p>
+              <p class="ff_mont fs_14 fw-normal text-white op_08 mx_177 para_ show">
+                Practice making decisions in uncertain environments with no
+                clear direction.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2" data-aos="zoom-in" data-aos-duration="1600">
+          <div class="position-relative hexa6_set hexa_hvr">
+            <svg xmlns="http://www.w3.org/2000/svg" width="197" height="220" viewBox="0 0 197 220" fill="none">
+              <g filter="url(#filter0_d_219_8807)">
+                <path
+                  d="M92.4206 19.5722C96.1736 17.367 100.826 17.367 104.579 19.5722L165.758 55.521C169.427 57.6764 171.679 61.6127 171.679 65.8671V138.133C171.679 142.387 169.427 146.324 165.758 148.479L104.579 184.428C100.826 186.633 96.1736 186.633 92.4206 184.428L31.2415 148.479C27.5735 146.324 25.3209 142.387 25.3209 138.133V65.8671C25.3209 61.6127 27.5735 57.6764 31.2415 55.521L92.4206 19.5722Z"
+                  fill="white" />
+                <path
+                  d="M92.9273 20.4344C96.3674 18.4129 100.633 18.4129 104.073 20.4344L165.252 56.3832C168.614 58.3589 170.679 61.9673 170.679 65.8671V138.133C170.679 142.033 168.614 145.641 165.252 147.617L104.073 183.566C100.633 185.587 96.3674 185.587 92.9273 183.566L31.7481 147.617C28.3858 145.641 26.3209 142.033 26.3209 138.133V65.8671C26.3209 61.9673 28.3858 58.3589 31.7481 56.3832L92.9273 20.4344Z"
+                  stroke="#FD9E78" stroke-opacity="0.2" stroke-width="2" />
+              </g>
+              <defs>
+                <filter id="filter0_d_219_8807" x="0.320801" y="0.918213" width="196.358" height="218.164"
+                  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="8" />
+                  <feGaussianBlur stdDeviation="12.5" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix"
+                    values="0 0 0 0 0.988235 0 0 0 0 0.611765 0 0 0 0 0.45098 0 0 0 0.12 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_219_8807" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_219_8807" result="shape" />
+                </filter>
+              </defs>
+            </svg>
+            <div class="position-absolute text_set small1_text_set text-center div_wid hvr_d_no">
+              <img src="./assets/img/svg/hexa6img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text-black">
+                Grasp motivations
+              </p>
+            </div>
+            <div class="position-absolute w- 100 text2_set text-center d-none hvr_d_bl">
+              <img src="./assets/img/svg/hexa1img.svg" alt="img" />
+              <p class="ff_mont fs_xsm fw-semibold text-black pt-1">
+                Grasp motivations
+              </p>
+              <p class="ff_mont fs_14 fw-normal text-white op_08 mx_177 para_ show">
+                Practice making decisions in uncertain environments with no
+                clear direction.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="px-5 position-absolute dotted_lineset d-lg-block d-none">
+        <img class="w-100" src="./assets/img/webp/dottedline.webp" alt="doddet line" />
+      </div>
+      <div class="px-5 position-absolute dotted_columnimg d-lg-none d-block">
+        <img class="column_dot_img_size" src="./assets/img/webp/columndottedimg.webp" alt="doddet line" />
+      </div>
+    </div>
+  </section>
+  <!-- TESIMOIAL -->
+  <section class="testimonial_bg py-lg-5">
+    <div class="container c_container py-5" data-aos="fade-down" data-aos-duration="1600">
+      <h2 class="mb-2 ff_mont fs_lg fw-bold text-white text-center">
+        Testimonials
+      </h2>
+      <div class="responsive">
+        <div class="mx-auto text-center pt-5 position-relative ">
+          <p class="ff_mont pb-4 fs_sm fw-medium fst-italic lh_161 mb-0 px-sm-0 px-4 text-white mx_635 text-center mx-auto pt-4">
+            Tortor varius ultrices felis sed. Lectus arcu dolor justo
+            consectetur varius sodales. Dictumst donec mattis sollicitudin at.
+            Non metus ornare pharetra sit. Velit at pulvinar eget ut. Sociis
+            urna fames nulla iaculis. Sit blandit arcu sed a diam sed viverra
+            sollicitudin diam.
+          </p>
+          <div class="mx_70 mx-auto">
+            <img class="cursor_pointr" src="./assets/img/svg/roundman.svg" alt="man" />
+          </div>
+          <p class="ff_mont fs_sm fw-semibold lh_150 text-white mb-0 pt-3">
+            Cameron Williamson
+          </p>
+          <p class="ff_mont fs_xsm fw-normal lh_150 text-white mb-0">
+            Designer
+          </p>
+          <img class="position-absolute upquots_set" src="./assets/img/svg/upquots.svg" alt="up" />
+          <img class="position-absolute downquots_set" src="./assets/img/svg/downquots.svg" alt="up" />
+        </div>
+        <div class="mx-auto text-center pt-5 position-relative">
+          <p class="ff_mont pb-4 fs_sm fw-medium fst-italic lh_161 px-sm-0 px-4 mb-0 text-white mx_635 text-center mx-auto pt-4">
+            Tortor varius ultrices felis sed. Lectus arcu dolor justo
+            consectetur varius sodales. Dictumst donec mattis sollicitudin at.
+            Non metus ornare pharetra sit. Velit at pulvinar eget ut. Sociis
+            urna fames nulla iaculis. Sit blandit arcu sed a diam sed viverra
+            sollicitudin diam.
+          </p>
+          <div class="mx_70 mx-auto">
+            <img class="cursor_pointr" src="./assets/img/svg/roundman.svg" alt="man" />
+          </div>
+          <p class="ff_mont fs_sm fw-semibold lh_150 text-white mb-0 pt-3">
+            Cameron Williamson
+          </p>
+          <p class="ff_mont fs_xsm fw-normal lh_150 text-white mb-0">
+            Designer
+          </p>
+          <img class="position-absolute upquots_set" src="./assets/img/svg/upquots.svg" alt="up" />
+          <img class="position-absolute downquots_set" src="./assets/img/svg/downquots.svg" alt="up" />
+        </div>
+        <div class="mx-auto text-center pt-5 position-relative">
+          <p class="ff_mont pb-4 fs_sm fw-medium fst-italic lh_161 mb-0 px-sm-0 px-4 text-white mx_635 text-center mx-auto pt-4">
+            Tortor varius ultrices felis sed. Lectus arcu dolor justo
+            consectetur varius sodales. Dictumst donec mattis sollicitudin at.
+            Non metus ornare pharetra sit. Velit at pulvinar eget ut. Sociis
+            urna fames nulla iaculis. Sit blandit arcu sed a diam sed viverra
+            sollicitudin diam.
+          </p>
+          <div class="mx_70 mx-auto">
+            <img class="cursor_pointr" src="./assets/img/svg/roundman.svg" alt="man" />
+          </div>
+          <p class="ff_mont fs_sm fw-semibold lh_150 text-white mb-0 pt-3">
+            Cameron Williamson
+          </p>
+          <p class="ff_mont fs_xsm fw-normal lh_150 text-white mb-0">
+            Designer
+          </p>
+          <img class="position-absolute upquots_set" src="./assets/img/svg/upquots.svg" alt="up" />
+          <img class="position-absolute downquots_set" src="./assets/img/svg/downquots.svg" alt="up" />
+        </div>
+        <div class="mx-auto text-center pt-5 position-relative">
+          <p class="ff_mont pb-4 fs_sm fw-medium fst-italic lh_161 px-sm-0 px-4 mb-0 text-white mx_635 text-center mx-auto pt-4">
+            Tortor varius ultrices felis sed. Lectus arcu dolor justo
+            consectetur varius sodales. Dictumst donec mattis sollicitudin at.
+            Non metus ornare pharetra sit. Velit at pulvinar eget ut. Sociis
+            urna fames nulla iaculis. Sit blandit arcu sed a diam sed viverra
+            sollicitudin diam.
+          </p>
+          <div class="mx_70 mx-auto">
+            <img src="./assets/img/svg/roundman.svg" alt="man" />
+          </div>
+          <p class="ff_mont fs_sm fw-semibold lh_150 text-white mb-0 pt-3">
+            Cameron Williamson
+          </p>
+          <p class="ff_mont fs_xsm fw-normal lh_150 text-white mb-0">
+            Designer
+          </p>
+          <img class="position-absolute upquots_set" src="./assets/img/svg/upquots.svg" alt="up" />
+          <img class="position-absolute downquots_set" src="./assets/img/svg/downquots.svg" alt="up" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CLASS OFFER -->
+  <section class="bg_cream py-lg-5 pt-4">
+    <div class="class_bg py-5">
+      <div class="container c_container pt-lg-3">
+        <h1 data-aos="zoom-in" data-aos-duration="1600"
+          class="ff_mont fs_lg fw-bold text-black text-center mb-0 lh_150 pt-lg-4">
+          Class <span class="clr_green">offering</span>
+        </h1>
+        <div data-aos="zoom-in" data-aos-duration="1600" class="mx_844 mx-auto text-center pt-md-4 pt-3">
+          <p class="ff_mont fs_xsm fw-normal text_black op_08 mb-0">
+            Each week, classes of 10-12 students work together on
+            collaborative challenges presented through the medium of video
+            games, working through these challenges, students learn critical
+            skills which are missing from the curriculum in many schools
+            today: navigation highly ambiguous situations, resolving conflicts
+            with their peers, regulating their emotions during high stakes
+            situations, negotiating with competing teams.
+          </p>
+          <p class="ff_mont fs_xsm fw-normal text_black op_08 mb-0 pt-3">
+            Our teachers use the socratic method to coach our students-rather
+            than giving students the ‘correct’ answer, teachers ask questions
+            to aid the student in discovering the path for themselves. our
+            teachers don’t take themselves too seriously in class-they create
+            a fun, low-risk environment, in which students can feel free to
+            experiment with different collaboration styles.
+          </p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center pt-1">
+          <h1 class="ff_mont fs_lg fw-semibold lh_150 text-black mb-0">
+            $195
+          </h1>
+          <p class="ff_mont fs_xsm fw-normal text-black op_07 mb-0 ps-2">
+            per month
+          </p>
+        </div>
+        <div class="mx_819 mx-auto pt-2">
+          <div class="row justify-content-center pb-lg-3">
+            <div class="col-lg-3 col-sm-4 col-6" data-aos="fade-up" data-aos-duration="1600">
+              <div class="position-relative hovr_hexa">
+                <img class="w-100  cursor_pointr" src="./assets/img/png/hexagoneimg2.png" alt="class" />
+                <div class="text-center position-absolute set_hexa1 w-100 px-lg-4 px-3 cursor_pointr">
+                  <img src="./assets/img/svg/tik.svg" alt="tik" />
+                  <div>
+                    <p class="mb-0 text-center ff_mont fs_xsm fw-normal text_black op_07 lh_130 pt-2">
+                      60 minute class each week.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-6" data-aos="fade-down" data-aos-duration="1600">
+              <div class="position-relative hovr_hexa">
+                <img class="w-100  cursor_pointr" src="./assets/img/png/hexagoneimg2.png" alt="class" />
+                <div class="text-center position-absolute set_hexa1 w-100 px-lg-5 cursor_pointr px-4">
+                  <img src="./assets/img/svg/tik.svg" alt="tik" />
+                  <div class="px-2 px-lg-0">
+                    <p class="mb-0 text-center ff_mont fs_xsm fw-normal text-black op_07 lh_130 pt-2">
+                      12 students per class
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-6 pt-sm-0 pt-4" data-aos="fade-up" data-aos-duration="1600">
+              <div class="position-relative hovr_hexa">
+                <img class="w-100  cursor_pointr" src="./assets/img/png/hexagoneimg2.png" alt="class" />
+                <div class="text-center position-absolute cursor_pointr set_hexa1 px-md-5 px-4 w-100">
+                  <img src="./assets/img/svg/tik.svg" alt="tik" />
+                  <div class="">
+                    <p class="mb-0 text-center ff_mont fs_xsm fw-normal text-black op_07 lh_130 pt-2">
+                      Dedicated teachers
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-4 col-6 pt-lg-0 pt-4" data-aos="fade-down" data-aos-duration="1600">
+              <div class="position-relative hovr_hexa">
+                <img class="w-100  cursor_pointr" src="./assets/img/png/hexagoneimg2.png" alt="class" />
+                <div class="text-center position-absolute cursor_pointr set_hexa1 px-lg-4 px-3 w-100">
+                  <img src="./assets/img/svg/tik.svg" alt="tik" />
+                  <div class="">
+                    <p class="mb-0 text-center ff_mont fs_xsm fw-normal  text-black op_07 lh_130 pt-2">
+                      Progress note home each month
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center pt-lg-4 pt-5">
+            <button class="ff_mont fs_xsm fw-semibold text-white p_9_22  green_btn  btn_hover">
+              Apply now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- WORLD MAP -->
+  <section class="bg_cream">
+    <div class="container c_container">
+      <h1 class="ff_mont fs_lg fw-bold text-black text-center mb-0 lh_150">
+        World <span class="clr_green">Map</span>
+      </h1>
+      <p class="ff_mont fs_16 fw-normal text-black op_08 lh_150 mb-0 text-center pb-4 pt-2">
+        The students take a class with kids from all over the world
+      </p>
+      <div class="mx_993 mx-auto pt-lg-5">
+        <img data-aos="zoom-in" data-aos-duration="1600" class="w-100" src="./assets/img/webp/map.webp" alt="map" />
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT US -->
+  <section class="bg_cream overflow-hidden">
+    <div class="about_bg py-lg-5">
+      <div class="container c_container position-relative py-5">
+        <h1 class="ff_mont fs_lg fw-bold text-black text-center pb-md-5 pb-3 mb-0 lh_150">
+          About <span class="clr_green">Us</span>
+        </h1>
+        <div class="text-center py-md-5" data-aos="fade-down" data-aos-duration="1600">
+          <h1 class="ff_mont fs_16 fw-semibold text-black">Stuart Reavley</h1>
+          <p class="ff_mont fs_xsm fw-normal text-black op_08 lh_150">
+            Ceo & founder
+          </p>
+          <p class="ff_mont fs_xsm fw-normal text-black op_08 lh_150 mb-0 mx_676 mx-auto pt-1 pb-md-5">
+            Stuart has built high performing teams for the last 15 years
+            across McKinsey, Google, Uber, and ClassDojo. He has taught
+            students of various ages, from 12 year olds, to college students,
+            to young adults in their first job after college. Prior to
+            starting Neptune, Stuart ran the teaching organization at another
+            online school, where he led a team of 100 teachers who taught
+            5,000 6-14 year olds every week. Stuart holds a first class degree
+            in Computer Science from the University of Cambridge and is a
+            parent himself - he has a 7 year old daughter and a 5 year old
+            son.
+          </p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center pt-4">
+          <div class="mx_197 position_abs men_set cursor_pointr hovr_pic mx_md_147 mx_md_80 mx_md_64">
+            <img data-aos="fade-left" data-aos-duration="1600" class="w-100" src="./assets/img/webp/manpic.webp"
+              alt="man" />
+          </div>
+          <div class="mx_96 cursor_pointr women_set position_abs hovr_pic mx_md_62 mx_md_49 ms-2">
+            <img data-aos="fade-right" data-aos-duration="1600" class="w-100" src="./assets/img/png/womenpic.png"
+              alt="women" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FAQ -->
+  <section class="bg_cream py-lg-5">
+    <div class="container c_container pt-4 pb-5">
+      <h1 class="ff_mont fs_lg fw-bold text-black text-center pb-lg-5 pb-4">
+        Frequently Asked <span class="clr_green">Question</span>
+      </h1>
+      <div class="mx_955 mx-auto pt-lg-3">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Q.1 How do I get started with video gaming?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show after_line pb-1"
+              data-bs-parent="#accordionExample">
+              <div class="bg-white">
+                <div class="accordion-body">
+                  <div class="bg-white">
+                    To start gaming, you'll need a gaming platform (PC,
+                    console, or mobile), games, and possibly accessories like
+                    a controller or keyboard and mouse. Simply choose a game
+                    that interests you and start playing.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Q.2 Are video games only for children and teenagers?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Q.3 What are some popular gaming platforms or consoles?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Q.4 How can I find information about upcoming video game
+                releases?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Q.5 How do I deal with in-game purchases and
+                microtransactions?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Q.6 Nulla porta euismod urna orci gravida justo nulla quam?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Q.7 Et erat suspendisse elit fermentum tincidunt eget
+                nislestibulum?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                Q.8 Pharetra nisl arcu cursus semper dis augue praesent et
+                lectus ut?
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                Q.9 Libero eu id integer semper. Pellentesque suspendisse nunc
+                nunc?
+              </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mt_20" data-aos="fade-down" data-aos-duration="1600">
+            <h2 class="accordion-header">
+              <button class="accordion-button pb-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                Q.10 Sed nibh augue laoreet massa vitae sit vitae. Vel
+                dignissim a nam?
+              </button>
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse after_line" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                To start gaming, you'll need a gaming platform (PC, console,
+                or mobile), games, and possibly accessories like a controller
+                or keyboard and mouse. Simply choose a game that interests you
+                and start playing.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <section class="foot_bg pt-5">
+    <div class="container c_container pt-3" data-aos="fade-up" data-aos-duration="1600">
+      <div class="w_240 w_s_210 mx-auto pb-1">
+        <img data-aos="zoom-in" data-aos-duration="1600" class="w-100" src="./assets/img/webp/footlogo.webp"
+          alt="footlogo" />
+      </div>
+      <p class="ff_mont mb-1 fs_xsm fw-normal text-white op_07 text-center pt-3 d-sm-block d-none">
+        Tortor ipsum dui accumsan malesuada feugiat quis
+      </p>
+      <p class="ff_mont mb-1 fs_xsm fw-normal text-white op_07 text-center pt-3 d-sm-none d-block">
+        Tortor ipsum dui accumsan male
+      </p>
+      <ul class="d-flex align-items-center flex-wrap justify-content-center ps-0 mb-0 pt-3">
+        <li>
+          <a class="ff_mont fs_xsm fw-semibold text-white hovr_link" href="#">Our approach</a>
+        </li>
+        <li class="ms_20">
+          <a class="ff_mont fs_xsm fw-semibold text-white hovr_link" href="#">About us</a>
+        </li>
+        <li class="ms_20">
+          <a class="ff_mont fs_xsm fw-semibold text-white hovr_link" href="#">Privacy policy</a>
+        </li>
+        <li class="ms_20">
+          <a class="ff_mont fs_xsm fw-semibold text-white hovr_link" href="#">Terms as condations</a>
+        </li>
+        <li class="ms_20">
+          <a class="ff_mont fs_xsm fw-semibold text-white hovr_link" href="#">Legal</a>
+        </li>
+      </ul>
+      <div class="d-flex justify-content-center py-5">
+        <a href="https://www.instagram.com/"><img class="shadow hovr_hexa cursor_pointr" src="./assets/img/svg/insta.svg" alt="insta" /></a>
+    <a href="https://in.linkedin.com/">    <img class="ms-4 shadow hovr_hexa cursor_pointr" src="./assets/img/svg/telegram.svg" alt="telegram" /></a>
+       <a href="https://www.facebook.com/"> <img class="ms-4 shadow hovr_hexa cursor_pointr" src="./assets/img/svg/fb.svg" alt="fb" /></a>
+      </div>
+    </div>
+    <div class="foot_line"></div>
+    <div class="container c_container py-1">
+      <div class="d-flex flex-sm-row flex-column justify-content-between align-items-center py-3">
+        <p class="mb-0 ff_mont fs_xsm fw-normal text-white op_07 cursor_pointr">
+          copyright@2023(All right reserved)
+        </p>
+        <p class="mb-0 ff_mont fs_xsm cursor_pointr fw-normal text-white op_07 pt-sm-0 pt-2">
+          hello@neptune.school | +1 (332) 278 0711
+        </p>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init(
+      { once: true }
+    );
+  </script>
+
+  <!-- j quairy min js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- slick min js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>const today = new Date();
+    const year = today.getFullYear();</script>
+  <script>
+    // const backToTopButton = document.getElementById('back-to-top');
+    // window.addEventListener('scroll', () => {
+    //   if (window.scrollY > 200) {
+    //     backToTopButton.style.display = 'block';
+    //   } else {
+    //     backToTopButton.style.display = 'none';
+    //   }
+    // });
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("back-to-top-button").style.display = "block";
+      } else {
+        document.getElementById("back-to-top-button").style.display = "none";
+      }
+    }
+
+    document.getElementById("back-to-top-button").addEventListener("click", function () {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    });
+  </script>
+  <script>
+    function shownav() {
+      document.getElementById("show").classList.toggle("start_0");
+      document.body.classList.toggle("overflow-hidden");
+    }
+  </script>
+  <script>const preloader = document.getElementById("preloader");
+    setTimeout(() => {
+      preloader.classList.add("d-none");
+      preloader.classList.add("pointer_event_none");
+      document.body.classList.remove("overflow-hidden");
+    }, 4000);</script>
+  </script>
+  <script>
+    $(".responsive").slick({
+      dots: true,
+      infinite: false,
+
+      slidesToShow: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: false,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+</html>
